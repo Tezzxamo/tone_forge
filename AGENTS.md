@@ -74,6 +74,7 @@ toneforge/
 │   ├── types/
 │   │   └── index.ts              # 共享类型：SfxrParams、Preset、HistoryItem、IPC 通道
 │   └── cli.ts                    # 命令行入口（独立于 Electron）
+├── scripts/                      # 启动脚本（PowerShell / CMD）
 ├── out/                          # 构建输出目录（main / preload / renderer）
 ├── electron.vite.config.ts       # electron-vite 配置（三进程分别配置）
 ├── tsconfig.json                 # TypeScript 主配置（strict，路径别名）
